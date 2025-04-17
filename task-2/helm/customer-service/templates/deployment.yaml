@@ -24,11 +24,3 @@ spec:
               protocol: TCP
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-          livenessProbe:
-            httpGet:
-              path: /1
-              port: http
-          readinessProbe:
-            httpGet:
-              path: /-1
-              port: http 
