@@ -12,7 +12,7 @@ ingress:
   enabled: true
   className: nginx
   hosts:
-    - host: nuvolar-api-gateway.${var.domain_name}
+    - host: nuvolar-api-gateway.aws-playground.space
       paths:
         - path: /
           pathType: Prefix
@@ -23,7 +23,7 @@ ingress:
     cert-manager.io/cluster-issuer: letsencrypt-dns
   tls:
     - hosts:
-        - nuvolar-api-gateway.${var.domain_name}
+        - nuvolar-api-gateway.aws-playground.space
       secretName: nuvolar-api-gateway-tls
 
 resources:
