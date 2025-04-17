@@ -18,7 +18,7 @@ autoscaling:
 livenessProbe:
   enabled: true
   httpGet:
-    path: /
+    path: /1
     port: 8080
   initialDelaySeconds: 5
   periodSeconds: 10
@@ -29,7 +29,7 @@ livenessProbe:
 readinessProbe:
   enabled: true
   httpGet:
-    path: /
+    path: /-1
     port: 8080
   initialDelaySeconds: 5
   periodSeconds: 10
