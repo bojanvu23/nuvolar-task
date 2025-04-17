@@ -30,3 +30,6 @@ This repository is part of an **interview task**. It demonstrates a modern appro
 Note:
    - CloudWatch Logs Dashboard problem with FluentBit config, will try to fox today
    - I've problem with service deployment, Liveness and Readiness probes and missing /health endpoint; also will try today to fix 
+
+# Update
+  The application is accessable at the following URL: https://nuvolar-api-gateway.aws-playground.space/order
