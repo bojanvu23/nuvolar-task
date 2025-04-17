@@ -25,3 +25,8 @@ This repository is part of an **interview task**. It demonstrates a modern appro
 
 ### CloudWatch Logs Dashboard
    - https://eu-central-1.console.aws.amazon.com/cloudwatch/home?region=eu-central-1#dashboards/dashboard/nuvolar-eks-cluster-public-logs
+
+##
+Note:
+   - CloudWatch Logs Dashboard problem with FluentBit config, will try to fox today
+   - I've problem with service deployment, Liveness and Readiness probes and missing /health endpoint; also will try today to fix 
