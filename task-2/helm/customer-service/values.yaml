@@ -14,25 +14,3 @@ autoscaling:
   maxReplicas: 4
   targetCPUUtilizationPercentage: 80
   targetMemoryUtilizationPercentage: 80 
-
-livenessProbe:
-  enabled: true
-  httpGet:
-    path: /1
-    port: 8080
-  initialDelaySeconds: 5
-  periodSeconds: 10
-  timeoutSeconds: 2
-  failureThreshold: 3
-  successThreshold: 1
-
-readinessProbe:
-  enabled: true
-  httpGet:
-    path: /-1
-    port: 8080
-  initialDelaySeconds: 5
-  periodSeconds: 10
-  timeoutSeconds: 2
-  failureThreshold: 3
-  successThreshold: 1
