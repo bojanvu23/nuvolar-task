@@ -26,9 +26,9 @@ spec:
             {{- toYaml .Values.resources | nindent 12 }}
           livenessProbe:
             httpGet:
-              path: /health
+              path: /1
               port: http
           readinessProbe:
             httpGet:
-              path: /health
+              path: /-1
               port: http 
