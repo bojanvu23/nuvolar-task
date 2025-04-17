@@ -25,7 +25,7 @@ spec:
             pathType: {{ .pathType }}
             backend:
               service:
-                name: sev-api-gateway
+                name: svc-api-gateway
                 port:
                   number: {{ $svcPort }}
           {{- end }}
