@@ -24,4 +24,4 @@ autoscaling:
   targetMemoryUtilizationPercentage: 80
 
 envs:
-  CUSTOMER_SERVICE_UR: "http://svc-customer-service:8080" 
+  CUSTOMER_SERVICE_URL: "http://svc-customer-service:8080" 
